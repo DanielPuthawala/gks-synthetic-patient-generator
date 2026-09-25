@@ -1,0 +1,75 @@
+{
+  "id": "synthetic-patient:fb97dfbc3e8cb838c70e",
+  "observations": [
+    {
+      "categoricalVariant": {
+        "aliases": [
+          "NC_000001.11:g.1699974C>G",
+          "NC_000001.10:g.1631413C>G"
+        ],
+        "constraints": [
+          {
+            "allele": {
+              "description": "VRS Allele supplied by the official Cat-VRS example.",
+              "digest": "WjRY1EXgci6Nd0M2yI86Ue_OOnfnb-Ss",
+              "expressions": [
+                {
+                  "syntax": "hgvs.g",
+                  "value": "NC_000001.11:g.1699974C>G"
+                }
+              ],
+              "id": "ga4gh:VA.WjRY1EXgci6Nd0M2yI86Ue_OOnfnb-Ss",
+              "location": {
+                "digest": "YmbtK6FLqlk2bLjpFwH-y7k4RLq_t7L3",
+                "end": 1699974,
+                "id": "ga4gh:SL.YmbtK6FLqlk2bLjpFwH-y7k4RLq_t7L3",
+                "sequence": "C",
+                "sequenceReference": {
+                  "id": "refseq:NC_000001.11",
+                  "refgetAccession": "SQ.Ya6Rs7DHhDeg7YaOSg1EoNi3U_nQ9SvO",
+                  "residueAlphabet": "na",
+                  "type": "SequenceReference"
+                },
+                "start": 1699973,
+                "type": "SequenceLocation"
+              },
+              "name": "NC_000001.11:g.1699974C>G",
+              "state": {
+                "sequence": "G",
+                "type": "LiteralSequenceExpression"
+              },
+              "type": "Allele"
+            },
+            "type": "DefiningAlleleConstraint"
+          }
+        ],
+        "description": "Canonical allele used as an official Cat-VRS example.",
+        "id": "clingen:CA415424538",
+        "mappings": [
+          {
+            "coding": {
+              "code": "CA415424538",
+              "iris": [
+                "https://reg.clinicalgenome.org/redmine/projects/registry/genboree_registry/by_caid?caid=CA415424538"
+              ],
+              "system": "https://reg.clinicalgenome.org/"
+            },
+            "relation": "exactMatch"
+          }
+        ],
+        "name": "NC_000001.11:g.1699974C>G",
+        "type": "CategoricalVariant"
+      },
+      "id": "synthetic-observation:b37324cb323b909cdeca",
+      "type": "VariantObservation"
+    }
+  ],
+  "provenance": {
+    "source": "GA4GH Cat-VRS documentation",
+    "sourceRecordId": "canonicalAllele-ex2",
+    "sourceRelease": "Cat-VRS 1.1.0"
+  },
+  "schemaVersion": "0.1.0",
+  "synthetic": true,
+  "type": "SyntheticPatientRecord"
+}

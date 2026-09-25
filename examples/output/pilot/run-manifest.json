@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "accepted": 1,
+    "observations": 1,
+    "patients": 1,
+    "rejected": 0
+  },
+  "input": "official_catvrs_example.json",
+  "outputs": {
+    "answerKey": "answer-key.json",
+    "patient": "patient.json"
+  },
+  "pipelineVersion": "0.1.0",
+  "seed": 20260925,
+  "selectionProfile": "precise-simple-alleles",
+  "source": {
+    "name": "GA4GH Cat-VRS documentation",
+    "record_id": "canonicalAllele-ex2",
+    "release": "Cat-VRS 1.1.0",
+    "retrieved_from": "https://cat-vrs.ga4gh.org/en/1.1.0/examples/canonicalAllele-ex2.html"
+  }
+}

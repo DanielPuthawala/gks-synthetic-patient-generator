@@ -1,0 +1,46 @@
+[build-system]
+requires = ["hatchling>=1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gks-synthetic-patient-generator"
+version = "0.1.0"
+description = "Generate reproducible synthetic patient records from real-world genomic knowledge using GA4GH GKS standards."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Daniel Puthawala" },
+]
+classifiers = [
+  "Development Status :: 2 - Pre-Alpha",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<9",
+  "ruff>=0.13,<0.14",
+]
+gks = [
+  "ga4gh.cat-vrs==0.7.2",
+]
+
+[project.scripts]
+gks-synthetic = "gks_synthetic_patient.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gks_synthetic_patient"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

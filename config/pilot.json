@@ -1,0 +1,8 @@
+{
+  "pipeline_version": "0.1.0",
+  "patient_count": 1,
+  "variants_per_patient": 1,
+  "selection_profile": "precise-simple-alleles",
+  "default_seed": 20260925,
+  "separate_answer_key": true
+}

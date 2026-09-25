@@ -1,0 +1,60 @@
+{
+  "status": "accepted",
+  "scope": "simple_allele",
+  "category_kind": "canonical_allele",
+  "ambiguous_normalizer_result": false,
+  "source": {
+    "name": "GA4GH Cat-VRS documentation",
+    "record_id": "canonicalAllele-ex2",
+    "release": "Cat-VRS 1.1.0",
+    "retrieved_from": "https://cat-vrs.ga4gh.org/en/1.1.0/examples/canonicalAllele-ex2.html"
+  },
+  "category": {
+    "id": "clingen:CA415424538",
+    "name": "NC_000001.11:g.1699974C>G",
+    "description": "Canonical allele used as an official Cat-VRS example.",
+    "aliases": [
+      "NC_000001.11:g.1699974C>G",
+      "NC_000001.10:g.1631413C>G"
+    ]
+  },
+  "defining_allele": {
+    "id": "ga4gh:VA.WjRY1EXgci6Nd0M2yI86Ue_OOnfnb-Ss",
+    "type": "Allele",
+    "name": "NC_000001.11:g.1699974C>G",
+    "description": "VRS Allele supplied by the official Cat-VRS example.",
+    "digest": "WjRY1EXgci6Nd0M2yI86Ue_OOnfnb-Ss",
+    "expressions": [
+      {
+        "syntax": "hgvs.g",
+        "value": "NC_000001.11:g.1699974C>G"
+      }
+    ],
+    "location": {
+      "id": "ga4gh:SL.YmbtK6FLqlk2bLjpFwH-y7k4RLq_t7L3",
+      "type": "SequenceLocation",
+      "digest": "YmbtK6FLqlk2bLjpFwH-y7k4RLq_t7L3",
+      "sequenceReference": {
+        "id": "refseq:NC_000001.11",
+        "type": "SequenceReference",
+        "refgetAccession": "SQ.Ya6Rs7DHhDeg7YaOSg1EoNi3U_nQ9SvO",
+        "residueAlphabet": "na"
+      },
+      "start": 1699973,
+      "end": 1699974,
+      "sequence": "C"
+    },
+    "state": {
+      "type": "LiteralSequenceExpression",
+      "sequence": "G"
+    }
+  },
+  "gold_annotations": [
+    {
+      "type": "IdentifierRecovery",
+      "expectedIdentifier": "clingen:CA415424538",
+      "relation": "exactMatch",
+      "note": "Plumbing-only test annotation; not a clinical classification."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "answers": [
+    {
+      "observationId": "synthetic-observation:b37324cb323b909cdeca",
+      "sourceAnnotations": [
+        {
+          "expectedIdentifier": "clingen:CA415424538",
+          "note": "Plumbing-only test annotation; not a clinical classification.",
+          "relation": "exactMatch",
+          "type": "IdentifierRecovery"
+        }
+      ]
+    }
+  ],
+  "patientId": "synthetic-patient:fb97dfbc3e8cb838c70e",
+  "provenance": {
+    "name": "GA4GH Cat-VRS documentation",
+    "record_id": "canonicalAllele-ex2",
+    "release": "Cat-VRS 1.1.0",
+    "retrieved_from": "https://cat-vrs.ga4gh.org/en/1.1.0/examples/canonicalAllele-ex2.html"
+  },
+  "schemaVersion": "0.1.0",
+  "type": "SyntheticPatientAnswerKey"
+}
